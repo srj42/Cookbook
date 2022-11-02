@@ -36,4 +36,4 @@ Please refer to the cookbook for any clarification on these formating guidlines.
 
 ## Diversity 
  
- College students are a diverse group of young people. To ensure that their diversity is represented in this cookbook, contributors are encouraged to add meals reprisentative of different cultures and areas of the world. 
+ College students are a diverse group of young people. To ensure that their diversity is represented in this cookbook, contributors are encouraged to add meals representative of different cultures and areas of the world. 
