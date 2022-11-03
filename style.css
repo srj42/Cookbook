@@ -309,3 +309,9 @@ h1 {
     font-weight: bold;
     padding-top: 3rem;
 }
+
+.Contact-Info li {
+    font-size: 16pt;
+    font-weight: bold;
+    padding-top: 1rem;
+}
