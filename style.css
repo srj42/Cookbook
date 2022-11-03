@@ -11,11 +11,11 @@ body, html {
     background-color: #333;
   }
   
-  li {
+  .navbar li {
     float: left;
   }
   
-  li a {
+  .navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -24,7 +24,7 @@ body, html {
   }
   
   /* Change the link color to #111 (black) on hover */
-  li a:hover {
+  .navbar li a:hover {
     background-color: #111;
   }
 
@@ -83,6 +83,126 @@ h1 {
     position: relative;
 }
 
+.Avocado-Toast-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Avocado-Toast.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Baked-Salmon-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Baked-Salmon.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Blackened-Tilapia-with-an-Avocado-Salsa-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Blackened-Tilapia-with-an-Avocado-Salsa.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Buffalo-Chicken-Sandwich-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Buffalo-Chicken-Sandwich.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Lasagna-Soup-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Lasagna-Soup.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Mediterranean-Chicken-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Mediterranean-Chicken.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Mexican-Quinoa-Salad-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Mexican-Quinoa-Salad.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Overnight-Oats-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Overnight-Oats.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Sausage-and-Egg-Breakfast-Quesadillas-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Sausage-and-Egg-Breakfast-Quesadillas.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Sheet-Pan-Omelet-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Sheet-Pan-Omelet.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Spinach-and-Feta-Grilled-Cheese-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Spinach-and-Feta-Grilled-Cheese.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Spinach-Salad-with-Pan-Seared-Chicken-Breast-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Spinach-Salad-with-Pan-Seared-Chicken-Breast.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 .textblock {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -97,6 +217,7 @@ h1 {
 
 .textblock h3 {
     font-size: 16pt;
+    text-align: left;
 }
 
 .Recipe-List {
@@ -155,3 +276,36 @@ h1 {
      vertical-align: middle;
      width: 100%;
  }
+
+.Recipe-Info {
+    padding-bottom: 3rem;
+}
+
+.Recipe-Info h2 {
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.Recipe-Info h3 {
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 2rem;
+    
+}
+
+.Recipe-Info li {
+    font-size: 16pt;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.About-Info li {
+    font-size: 16pt;
+    font-weight: bold;
+    padding-top: 3rem;
+}
